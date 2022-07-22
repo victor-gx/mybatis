@@ -22,7 +22,7 @@
                 type：设置需要设置别名的类型
                 alias：设置某个类型的别名，若不设置该属性，那么该类型拥有默认的别名，即类名且不区分大小写
         -->
-        <!--<typeAlias type="com.gx.mybatis.pojo.User"></typeAlias>-->
+        <!--<typeAlias type="User"></typeAlias>-->
         <!--以包为单位，将包下所有的类型设置默认的类型别名，即类名且不区分大小写-->
         <package name="com.gx.mybatis.pojo"/>
     </typeAliases>

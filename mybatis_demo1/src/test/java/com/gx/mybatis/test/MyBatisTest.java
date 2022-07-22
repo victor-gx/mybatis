@@ -48,7 +48,7 @@ public class MyBatisTest {
         // mapper.deleteUser();
         // User user = mapper.getUserById();
         // System.out.println(user);
-        List<User> list = mapper.getAllUser();
-        list.forEach(user -> System.out.println(user));
+        // List<User> list = mapper.getAllUser();
+        // list.forEach(user -> System.out.println(user));
     }
 }
